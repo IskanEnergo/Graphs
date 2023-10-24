@@ -1,0 +1,16 @@
+[package]
+name = "graph_tool"
+version = "0.1.0"
+edition = "2021"
+authors = ["Max"]
+description = "Graph library with examples"
+
+[dev-dependencies]
+clap = { version = "4.2.1", features = ["derive"] }
+
+[dependencies]
+itertools = "0.10.5"
+rand = "0.8.5"
+
+[lib]
+name = "graph_tool"
